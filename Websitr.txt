@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platinum Glow Esthetics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-image: url('https://example.com/tropical-background.jpg');
+            background-size: cover;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2e8b57;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .facials {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .facials h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Platinum Glow Esthetics</h1>
+    </header>
+    <nav>
+        <a href="#facials">Facials</a>
+        <a href="#lashes">Lashes</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="facials" class="section facials">
+            <h2>Facials</h2>
+            <p>Welcome to Platinum Glow Esthetics! Our facial treatments are designed to rejuvenate your skin and leave you feeling refreshed. Our services include:</p>
+            <ul>
+                <li>Deep Cleansing Facial</li>
+                <li>Hydrating Facial</li>
+                <li>Anti-Aging Facial</li>
+                <li>Acne Treatment Facial</li>
+            </ul>
+        </section>
+        <section id="lashes" class="section">
+            <h2>Lashes</h2>
+            <p>Enhance your natural beauty with our premium lash services. We offer:</p>
+            <ul>
+                <li>Classic Lash Extensions</li>
+                <li>Volume Lash Extensions</li>
+                <li>Lash Lifts</li>
+                <li>Lash Tinting</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to book an appointment, please contact us at:</p>
+            <p>Email: info@platinumglowesthetics.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Platinum Glow Esthetics
+    </footer>
+</body>
+</html>
